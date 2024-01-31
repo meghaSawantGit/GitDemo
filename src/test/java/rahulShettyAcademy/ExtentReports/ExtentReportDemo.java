@@ -52,6 +52,10 @@ public class ExtentReportDemo {
 	@AfterTest
 	public void print() {
 		System.out.println("Test Completed.");
+		System.out.println("Test Completed1.");
+		System.out.println("Test Completed2.");
+		System.out.println("Test Completed3.");
+		
 	}
 
 }
