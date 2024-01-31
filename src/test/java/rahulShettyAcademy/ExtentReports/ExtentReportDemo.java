@@ -2,6 +2,7 @@ package rahulShettyAcademy.ExtentReports;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -47,6 +48,10 @@ public class ExtentReportDemo {
 		//test.fail("results do not match");// it will not fail the testcase, it only reports failure for report
 		extent.flush();// this indicates that test is completed and it should stop listening for result
 		
+	}
+	@AfterTest
+	public void print() {
+		System.out.println("Test Completed.");
 	}
 
 }
