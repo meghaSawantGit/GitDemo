@@ -57,5 +57,13 @@ public class ExtentReportDemo {
 		System.out.println("Test Completed3.");
 		
 	}
+	
+	public void newMethod() {
+		System.out.println("new changes.");
+		System.out.println("new changes.");
+		System.out.println("new changes.");
+		System.out.println("new changes.");
+		
+	}
 
 }
